@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "millestiasmysteries",
+	"version": "${version}",
+	"name": "Millestia's Mysteries",
+	"description": "Millestia's Mysteries",
+	"authors": [
+		"dodo67"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/D0D067/millestiasmysteries"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/millestiasmysteries/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"millestiasmysteries.MillestiasMysteriesMod"
+		],
+		"client": [
+		]
+	},
+	"mixins": [
+		"millestiasmysteries.mixins.json",
+		{
+			"config": "millestiasmysteries.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
