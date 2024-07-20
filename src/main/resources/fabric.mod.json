@@ -19,6 +19,12 @@
 			"millestiasmysteries.MillestiasMysteriesMod"
 		],
 		"client": [
+		],
+		"terrablender": [
+			"millestiasmysteries.biome.MMTerrablenderAPI"
+		],
+		"fabric-datagen": [
+			"millestiasmysteries.MMDataGenerator"
 		]
 	},
 	"mixins": [
